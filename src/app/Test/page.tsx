@@ -377,21 +377,21 @@ const TestPage = () => {
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 placeholder:text-white"
+              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 placeholder:text-white placeholder:font-bold"
               placeholder="Enter your Name"
             />
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 mt-4 placeholder:text-white"
+              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 mt-4 placeholder:text-white placeholder:font-bold"
               placeholder="Enter a valid Email"
             />
             <input
               type="url"
               value={profilePicture}
               onChange={(e) => setProfilePicture(e.target.value)}
-              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 mt-4 placeholder:text-white"
+              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 mt-4 placeholder:text-white placeholder:font-bold"
               placeholder="LinkedIn Profile URL"
             />
           </div>
@@ -401,8 +401,8 @@ const TestPage = () => {
               type="text"
               value={testNumber}
               onChange={(e) => setTestNumber(e.target.value)}
-              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 placeholder:text-white"
-              placeholder="Enter Test Number"
+              className="bg-yellow-400 text-black px-4 py-2 rounded-full ml-4 placeholder:text-white placeholder:font-bold"
+              placeholder="Enter Phone Number"
             />
           </div>
 
