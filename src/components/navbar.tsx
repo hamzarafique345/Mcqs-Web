@@ -172,8 +172,8 @@ export default function Navbar() { // Get the user data from Clerk
           <Link href="#" className="pointer hover:scale-110 transition-transform duration-500">
             About me
           </Link>
-          <Link href="/fullresultstudent" className="pointer hover:scale-110 transition-transform duration-500">
-            Results
+          <Link href="/Test" className="pointer hover:scale-110 transition-transform duration-500">
+           Exam
           </Link>
           <Link href="https://nextjs.org/docs" className="pointer hover:scale-110 transition-transform duration-500">
             Resources
