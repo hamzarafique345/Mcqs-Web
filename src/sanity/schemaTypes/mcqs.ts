@@ -49,10 +49,5 @@ export const mcqs = {
       title: "Correct Answer",
       type: "string",
     },
-    {
-      name: "testNumber",
-      title: "Test Number",
-      type: "string",
-    },
   ],
 };
