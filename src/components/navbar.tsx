@@ -124,7 +124,8 @@ export default function Navbar() { // Get the user data from Clerk
               <strong className="text-yellow-400 font-black">Ha</strong>mza{' '}
             </Link>
             <strong className="text-yellow-400 font-black">&</strong>{' '}
-            <strong className="text-yellow-400 font-black">A</strong>li{' '}
+            <Link href="https://www.linkedin.com/in/aleee-bukhari-170545317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <strong className="text-yellow-400 font-black">Syed</strong> Ali{' '}</Link>
             <br />
             <strong className="text-sky-200">Test </strong>
             <strong className="text-sky-200">Guide</strong>
@@ -169,7 +170,7 @@ export default function Navbar() { // Get the user data from Clerk
           <Link href="#" className="pointer hover:scale-110 transition-transform duration-500">
             Home
           </Link>
-          <Link href="#" className="pointer hover:scale-110 transition-transform duration-500">
+          <Link href="/About" className="pointer hover:scale-110 transition-transform duration-500">
             About me
           </Link>
           <Link href="/Test" className="pointer hover:scale-110 transition-transform duration-500">

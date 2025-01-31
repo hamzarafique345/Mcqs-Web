@@ -392,7 +392,7 @@ const TestPage = () => {
           {selectedQuestions.length > 0 ? (
             <div className="space-y-6 max-w-3xl mx-auto mt-6">
   <h1 className="text-xl sm:text-lg lg:text-2xl font-semibold text-center text-yellow-400 py-4">
-  You Have 40 Minutes to Solve All 100 MCQs! Your Result Will Appear Below After Completion.
+  You Have 45 Minutes to Solve All 100 MCQs! Your Result Will Appear Below After Completion.
 </h1>
 
 
