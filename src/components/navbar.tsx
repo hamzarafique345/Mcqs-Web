@@ -167,7 +167,7 @@ export default function Navbar() { // Get the user data from Clerk
       {/* Pages Nav Buttons */}
       <div className="flex justify-center mt-2">
         <ul className="flex space-x-1 text-[11px] font-medium es:font-medium es:text-[15px] sm:text-[18px] sm:font-medium md:space-x-6">
-          <Link href="#" className="pointer hover:scale-110 transition-transform duration-500">
+          <Link href="/" className="pointer hover:scale-110 transition-transform duration-500">
             Home
           </Link>
           <Link href="/About" className="pointer hover:scale-110 transition-transform duration-500">

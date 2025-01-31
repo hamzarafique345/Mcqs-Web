@@ -1,7 +1,8 @@
 import Navbar from '@/components/navbar'
+import { Button } from '@/components/ui/button';
 import Link from 'next/link'
 import React from 'react'
-
+import { FaYoutube, FaWhatsapp } from 'react-icons/fa';
 export default function Homepage() {
   
   return (
@@ -27,10 +28,23 @@ export default function Homepage() {
 
           {/* Button */}
           <div className='flex justify-center mt-6 sm:mt-8'>
-            <span className='bg-yellow-400 text-black font-bold text-[18px] sm:text-[22px] md:text-[28px] xl:text-[32px] py-2 px-6 rounded-full cursor-pointer transition duration-300 hover:bg-yellow-500 hover:scale-105'>
+            <span className='bg-yellow-400 text-black font-bold text-[18px] sm:text-[22px] md:text-[28px] xl:text-[32px] py-1 px-6 rounded-full cursor-pointer transition duration-300 hover:bg-yellow-500 hover:scale-105'>
         <Link href={"/Test"}>    Start Now!</Link>  
             </span>
           </div>
+               {/* Buttons Section */}
+        <div className="flex flex-col sm:flex-row justify-center gap-6 mt-10">
+          <Link href="https://chat.whatsapp.com/GiG8Bm3PpwO2zPlL1VWuL2" target="_blank">
+            <Button className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg text-lg">
+              <FaWhatsapp className="text-xl" /> Join Our WhatsApp Community
+            </Button>
+          </Link>
+          <Link href="https://www.youtube.com/@murshidhamza345" target="_blank">
+            <Button className="bg-red-500 hover:bg-red-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg text-lg">
+              <FaYoutube className="text-xl" /> Test Guide on YouTube
+            </Button>
+          </Link>
+        </div>
         </div>
       </div>
     </div>
