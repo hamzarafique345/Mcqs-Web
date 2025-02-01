@@ -6,7 +6,7 @@ import Navbar from "@/components/navbar";
 
 export default function AboutPage() {
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center bg-cover bg-center" style={{ backgroundImage: "url(/first.jpg)" }}>
+    <div className="relative w-full min-h-screen flex flex-col items-center pb-10 bg-cover bg-center" style={{ backgroundImage: "url(/first.jpg)" }}>
       {/* Dark Overlay for Visibility */}
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
@@ -57,12 +57,12 @@ export default function AboutPage() {
         {/* Buttons Section */}
         <div className="flex flex-col sm:flex-row justify-center gap-6 mt-10">
           <Link href="https://chat.whatsapp.com/GiG8Bm3PpwO2zPlL1VWuL2" target="_blank">
-            <Button className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg text-lg">
+            <Button className="bg-green-500 hover:bg-green-600 m-auto text-white flex items-center gap-2 px-6 py-3 rounded-lg text-lg">
               <FaWhatsapp className="text-xl" /> Join Our WhatsApp Community
             </Button>
           </Link>
           <Link href="https://www.youtube.com/@murshidhamza345" target="_blank">
-            <Button className="bg-red-500 hover:bg-red-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg text-lg">
+            <Button className="bg-red-500 hover:bg-red-600 m-auto text-white flex items-center gap-2 px-6 py-3 rounded-lg text-lg">
               <FaYoutube className="text-xl" /> Watch on YouTube
             </Button>
           </Link>
