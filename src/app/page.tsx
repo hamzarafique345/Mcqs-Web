@@ -6,7 +6,7 @@ import { FaYoutube, FaWhatsapp } from 'react-icons/fa';
 export default function Homepage() {
   
   return (
-    <div className="relative bg-center bg-cover min-h-screen h-[100vh]  sm:md:h-[120vh]" style={{backgroundImage:"url(/first.jpg)"}}>
+    <div className="relative bg-center bg-cover min-h-screen h-[100vh]  sm:md:h-[100vh]" style={{backgroundImage:"url(/first.jpg)"}}>
       <div className='absolute inset-0 bg-black bg-opacity-60'></div>
       <div className='relative z-10 flex flex-col h-full'>
         {/* Navbar at the top */}

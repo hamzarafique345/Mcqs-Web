@@ -358,14 +358,20 @@ const TestPage = () => {
   };
 
   return (
-    <div className="relative bg-center bg-cover min-h-screen pb-10" style={{ backgroundImage: "url(/first.jpg)" }}>
+    <div className="relative bg-center  bg-cover min-h-screen pb-10" style={{ backgroundImage: "url(/first.jpg)" }}>
       <div className="absolute inset-0 bg-black bg-opacity-65"></div>
       <div className="relative z-10 flex flex-col h-full">
         <Navbar />
-        <div className="text-white text-center flex flex-col justify-center h-full px-4 sm:px-6 md:px-10 lg:px-16">
+        <div className="text-white text-center pt-6 flex flex-col justify-center h-full px-4 sm:px-6 md:px-10 lg:px-16">
           <h3 className="text-[20px] sm:text-[24px] lg:text-[32px] font-extrabold mb-4 sm:mb-6">Ready for the Test?</h3>
 
           <div className="mb-6">
+          <h1 className="text-base sm:text-lg lg:text-base font-semibold text-center text-yellow-400 py-4">
+  Please enter your Name, Gmail, and LinkedIn Profile URL.  <br/>
+  The submit button will remain disabled until all fields are filled correctly.
+</h1>
+
+
             <input
               type="text"
               value={name}
