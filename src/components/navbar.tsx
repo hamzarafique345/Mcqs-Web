@@ -143,22 +143,26 @@ export default function Navbar() { // Get the user data from Clerk
 
         {/* Social Icons */}
         <div className="flex mt-1 gap-2 es:gap-1 sm:gap-4">
+          <Link  href="https://www.facebook.com/hamza.rafique.5836711/">
           <FaFacebook
-            href="https://www.facebook.com/hamza.rafique.5836711/"
+          
             className="text-blue-600 hover:text-blue-700 w-4 h-4 es:w-5 es:h-5 sm:h-6 sm:w-6 hover:scale-110"
-          />
+          /></Link>
+          <Link           href="https://chat.whatsapp.com/FEc6rTxLJ0T4TxQw9VXr7G">
           <FaWhatsapp
-            href="https://chat.whatsapp.com/FEc6rTxLJ0T4TxQw9VXr7G"
+ 
             className="text-green-500 hover:text-green-600 w-4 h-4 es:w-5 es:h-5 sm:h-6 sm:w-6 hover:scale-110"
-          />
+          /></Link>
+          <Link   href="https://www.instagram.com/hamza.rafique.5836711/?hl=en">
           <FaInstagram
-            href="https://www.instagram.com/hamza.rafique.5836711/?hl=en"
+         
             className="text-pink-500 hover:text-pink-600 w-4 h-4 es:w-5 es:h-5 sm:h-6 sm:w-6 hover:scale-110"
-          />
+          /></Link>
+          <Link  href="https://www.youtube.com/@murshidhamza345">
           <FaYoutube
-            href="https://www.youtube.com/@murshidhamza345"
+          
             className="text-red-500 hover:text-red-600 w-4 h-4 es:w-5 es:h-5 sm:h-6 sm:w-6 hover:scale-110"
-          />
+          /></Link>
         </div>
       </div>
 
